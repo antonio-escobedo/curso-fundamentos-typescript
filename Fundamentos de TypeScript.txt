@@ -1,0 +1,164 @@
+Clase 1: El lenguaje de programación de TypeScript.
+
+Luis Aviles google developer expert
+
+Que es TypeScript? 
+
+Super conjunto tipado de javascript que compila javascript vanilla
+
+Lenguaje Tipado
+Lenguaje de Altp Nivel
+Genera como resultado código JavaScript
+Código Abierto
+Multiplataforma
+Ejecuta en cualquier navegador
+
+TypeScript soporta ES5 y ES6
+
+Quienes utilizan TypeScript?
+
+Microsoft
+Google
+Airbnb
+shopify
+slack
+Mediam
+
+Por qué usar TypeScript?
+
+POO
+Potencia tu código JavaScript
+Mayor productividad
+Tipado
+Compíla ES5, ES5 y más
+Actualizaciones periódicas
+Comunidad creciente -> Stackoverflow, github, twitter
+Puede prevenir cerca del 15% de bugs
+Desarrollo Cliente y Servidor (Node.js)
+
+Clase 2: Instalación de herramientas for mac
+
+Nodejs versión LTS (Probada por cientos de desarrolladores)
+
+node --version o node -v
+npm (node package manager)
+nvm (node versión manager) for mac
+
+Clase 3: Instalación de herramientas for windows
+
+Nodejs versión LTS (Probada por cientos de desarrolladores)
+Descargar del Link el .zip del nvm: https://github.com/coreybutler/nvm-windows/releases
+
+
+Clase 4: Navegación y refactorización
+
+Proyecto hecho al 100% con typescript: editorjs.io
+Directorios proyecto typescript
+
+tsconfig.json
+package.json (Referencias a los paquetes del proyecto)
+src
+-assets
+
+Clase 5: El compilador de TypeScript
+
+Se denomina TSC (TypeScript compiler)
+
+npm install -g typescript (-g es para que se instale de manera global)
+
+usar el compilador de typescript con el comando: tsc + archivo.ts y como resultado
+generara un .js
+
+ejecutar el js con comando node archivo.js
+
+comando para abrir Visual studio code desde cmd: code + carpeta del proyecto
+
+Nota: Para permitir que visual studio code en windows ejecute la consola de windows
+abrir como administrador una consola de powershell y ejecutar el siguiente comando: Set-ExecutionPolicy Unrestricted -Scope LocalMachine
+
+opcion --watch : tsc --watch + archivo.ts (compila en un modo de revisión y detecta los cambios que se van realizando generando una compilación en automatico)
+
+Clase 6: El archivo de configuración de TypeScript
+
+tsconfig.js
+	- Especificar la raíz de un proyecto TypeScript
+	- Permite configurar opciones para el compilador
+
+generar archivo tsconfig.json: tsc --init
+
+Objeto json con opciones del compilador de typescript
+- validación de tipos
+- includes
+- target es5
+- exclude (excluir archivos de la compilación)
+- herencia de configuraciones con extends
+- compileOnSave para compilar de manera automatica al guardar el archivo
+
+Comando tsc el compilador toma la configuración del archivo tsconfig.json
+
+Clase 7: Mi primer proyecto TypeScript
+
+Generación del cascaron del proyecto
+
+Clase 8: Tipado en TypeScript
+
+Explicito: define una sintaxis para la creacion de variables con tipo de dato
+
+Anotación postFija: nombreVariable + : + TipoDeDato
+
+inferido: TypeScript deduce el tipo de funcion del valor.
+
+nombreVariable + valorInicial
+
+Tipos Básicos:
+
+Tipos Primitivos
+
+number, boolean, string
+
+Clase 9: Number, Boolean y String
+
+Tipo Number:
+
+- númericos
+- hexadecimales
+- binarios
+- octales
+
+Clase 10: Tipos de datos: Any,void y never.
+
+Any:
+- Variables dinamicas
+- Los valores pueden cambiarn por apis externas
+- Debe ser el ultimo de dato a ocupar, solo a priori no se conozcan los tipos
+
+var se acerma mucho a al any en TypeScript
+
+Clase 11: Tipos de datos: Void y never
+
+Void:
+- Se utiliza para el retorno de funciones que no se conoce el tipo de retorno
+
+Never:
+- Representa un valor que nunca ocurre en el código:
+	- se utilizan en excepciones
+	- nunca se retorna un valor
+
+Clase 12: Tipo de datos: Null y undefined
+ 
+Null y undefined se consideran subtipos de otros tipos de datos.
+por ejemplo Se pueden asignar null y undefined a variables String 
+
+Solucion de problemas habituales: es evitar la asignacion de null y undefined.
+--strictNullChecks
+
+comando: tsc archivo.ts + --strictNullCheks (Es un parametro en el archivo tsconfig.json)
+
+clase 13: Tipo Object
+
+object: es el tipo de dato que no representa un valor primitivo
+
+Object vs object
+
+Object: instancia de la clase Object de JavaScript
+object: tipo para valores no primitivos (No se puede acceder a las propiedades del objeto)
