@@ -228,6 +228,8 @@ Clase 21: Interfaces
 Interfaces: Forma poderosa para definir un "Contrato"
 Flicker.
 
+Clase 22: Interfaces: propiedades opcionales
 
+Utilizar el simbolo de ? despues del nombre del atributo
 
 
