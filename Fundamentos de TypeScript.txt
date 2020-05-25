@@ -162,3 +162,14 @@ Object vs object
 
 Object: instancia de la clase Object de JavaScript
 object: tipo para valores no primitivos (No se puede acceder a las propiedades del objeto)
+
+Clase 14: Array
+
+Permite definir un arreglo usando 2 notaciones:
+
+- []
+- Array<tipo>
+
+Implicito y explicito
+
+Clase 15: Tuple
