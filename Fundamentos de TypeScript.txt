@@ -203,6 +203,9 @@ Puede contener un conjunto unicamente de cadenas definidas utilizando pipe |
 
 Clase 18: Aserciones de tipo
 
+Se parece al mecanismo de casting en otros lenguajes de programación
+<Angle Bracket> y variable as tipo.
+
 
 
 
