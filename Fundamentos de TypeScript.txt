@@ -207,5 +207,24 @@ Se parece al mecanismo de casting en otros lenguajes de programación
 <Angle Bracket> y variable as tipo.
 
 
+Clase 19: Funciones en TypeScript
+
+-Parámetros de las funciones son tipados
+-Parámetros opcionales
+-Tipos de retorno
+
+Se define como opcional el parametro en la funcion despues del nombre de la variable colocando '?'
+Funciones flat y retornos mixtos
+
+Clase 20: Resumen
+
+Tipado de typescript
+
+Tipos y subtipos. null y undefined son subtipos de los tipos básicos.
+
+
+Clase 21: Interfaces
+
+
 
 
