@@ -231,5 +231,11 @@ Flicker.
 Clase 22: Interfaces: propiedades opcionales
 
 Utilizar el simbolo de ? despues del nombre del atributo
+Atributos que no se pueden modificar una vez creado el objeto se
+les agrega readonlu antes del nombre de la propiedad.
+
+Clase 23: Extensión de interfaces (Herencia)
+
+Se utiliza la palabra reservada extends y se usa mucho en POO
 
 
