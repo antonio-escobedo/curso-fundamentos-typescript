@@ -225,6 +225,9 @@ Tipos y subtipos. null y undefined son subtipos de los tipos básicos.
 
 Clase 21: Interfaces
 
+Interfaces: Forma poderosa para definir un "Contrato"
+Flicker.
+
 
 
 
