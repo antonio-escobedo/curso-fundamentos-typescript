@@ -190,5 +190,19 @@ Uso de enumerados cuando tenemos valores limitados. (Meses de año)
 Clase 17: Unión de tipos, Alias y Tipos Literales
 
 Se pueden definir una variable con múltiples tipos de datos (Union Type)
-Se utiliza el símbolo de pipe | entre tiipos
+Se utiliza el símbolo de pipe | entre tipos
+
+Alias de tipos
+
+Permite crear un alias para la combinacion de tipos
+Se usa la palabra reservada type
+
+Tipos literales
+
+Puede contener un conjunto unicamente de cadenas definidas utilizando pipe |
+
+Clase 18: Aserciones de tipo
+
+
+
 
