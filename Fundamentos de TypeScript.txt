@@ -173,3 +173,14 @@ Permite definir un arreglo usando 2 notaciones:
 Implicito y explicito
 
 Clase 15: Tuple
+
+Permiten expresar un arreglo con un número fijo de elementos
+
+Una tupla debe tener diferentes tipos en las posiciones del arreglo
+
+
+Clase 16: Enum
+
+Enumerados permiten definir un conjunto de constantes con nombre
+Se adaptan al contexto de la aplicación
+
