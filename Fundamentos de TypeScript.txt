@@ -184,3 +184,11 @@ Clase 16: Enum
 Enumerados permiten definir un conjunto de constantes con nombre
 Se adaptan al contexto de la aplicación
 
+Uso de enumerados cuando tenemos valores limitados. (Meses de año)
+
+
+Clase 17: Unión de tipos, Alias y Tipos Literales
+
+Se pueden definir una variable con múltiples tipos de datos (Union Type)
+Se utiliza el símbolo de pipe | entre tipoz
+
