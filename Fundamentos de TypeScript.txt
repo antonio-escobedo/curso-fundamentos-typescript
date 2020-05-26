@@ -250,5 +250,19 @@ Por defecto son publicos , pero se puede declarar de manera explicita con el mod
 TypeScript define una manera propia de marcar un miembro privado con la palabra reservada private
 TypeScript tambien soporta a partir de la 3.8 la nueva sintaxis JavaScript para miembros privados: #atributo
 
+Clase 26: Métodos Get y Set
+
+TypeScript soporta los métodos accesores set y get como una forma de interceptar los accesos privados de un objeto.
+
+
+Clase 27: Herencia de clases y propiedades estáticas
+
+Se realiza la herencia atraves de extends
+POO
+
+Clases abstractas: abstract
+Propiedades estaticas: palabra reservada static y puede ser readonly
+
+
 
 

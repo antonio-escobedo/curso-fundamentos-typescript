@@ -30,7 +30,7 @@ class Album {
     private title: string;
     private pictures: Picture[];
 
-    public constructor(id: number, title: sting) {
+    public constructor(id: number, title: string) {
         this.id = id;
         this.title = title;
         this.pictures = [];
