@@ -275,4 +275,13 @@ Clase 28: Resumen
    - Export expone funciones, clases y todo lo que se puede importar
    - Import utiliza los recursos exportados previamente   
 
+Clase 29: Principio de responsabilidad única
+
+- Un archivo debería tener un propósito o responsabilidad única.
+- Favorece su lectura, testing y mantenimiento
+
+Principio S.O.L.I.D
+
+Clase 30: Resolviendo módulos
+
 
