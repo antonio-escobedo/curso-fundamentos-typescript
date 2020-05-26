@@ -238,4 +238,13 @@ Clase 23: Extensión de interfaces (Herencia)
 
 Se utiliza la palabra reservada extends y se usa mucho en POO
 
+Clase 24: Clases
+
+A partir de ECMAScript 2015 es posible construir clases y hacer uso de POO en JavaScript
+TypeScript permite aplicar estas técnicas sin tener que esperar por otra versión.
+
+Clase 25: Clases públicas y privadas
+
+
+
 
