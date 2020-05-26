@@ -305,3 +305,8 @@ Se agrego la variable: traceResolution: true
 tsc --project photo-app (Se utiliza para realizar un debuggin y encontrar errores)
 
 
+Clase 31: Webpack y agrupación de módulos
+
+Para utilizarlo dentro de nuestro proyecto debemos agregar el package.json
+Generar archivo pachake.json: npm init -y
+Instalar con el comando: npm install typescript webpack webpack-cli --save-dev
