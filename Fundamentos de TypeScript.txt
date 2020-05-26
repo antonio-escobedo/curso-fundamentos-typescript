@@ -245,6 +245,10 @@ TypeScript permite aplicar estas técnicas sin tener que esperar por otra versi�
 
 Clase 25: Clases públicas y privadas
 
+TypeScript permite definir el modificador de los atributos y clases
+Por defecto son publicos , pero se puede declarar de manera explicita con el modificador public
+TypeScript define una manera propia de marcar un miembro privado con la palabra reservada private
+TypeScript tambien soporta a partir de la 3.8 la nueva sintaxis JavaScript para miembros privados: #atributo
 
 
 

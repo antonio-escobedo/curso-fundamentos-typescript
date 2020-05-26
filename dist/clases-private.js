@@ -39,7 +39,7 @@ console.log('Estado de Picture', picture);
 console.log('Estado de Picture', picture2);
 console.log('Estado de Album', album);
 // Accediendo a los miembros publicos
-picture.id = 100; // public
-picture.title = 'Another title'; // public
-album.title = 'Personal Activities';
+//picture.id = 100; // private
+//picture.title = 'Another title'; // private
+//album.title = 'Personal Activities';
 console.log('Estado de Album', album);
