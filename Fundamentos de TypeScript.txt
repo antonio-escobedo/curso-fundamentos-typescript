@@ -264,5 +264,15 @@ Clases abstractas: abstract
 Propiedades estaticas: palabra reservada static y puede ser readonly
 
 
+Clase 28: Resumen
+
+-Módulos en TypeScript
+   - Proveen un mecanismo de organización y reutilización del código.
+   - EXMAScript 2015 los módulos son parte nativa.
+   - Agrupar features, utilidades y modelos, etc
+
+- import y export
+   - Export expone funciones, clases y todo lo que se puede importar
+   - Import utiliza los recursos exportados previamente   
 
 
