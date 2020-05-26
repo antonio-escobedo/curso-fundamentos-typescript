@@ -284,4 +284,24 @@ Principio S.O.L.I.D
 
 Clase 30: Resolviendo módulos
 
+TypeScript resuelve las referencias a módulos utilizando relativas y no relativas.
+Intenta localizar un módulo usando la estrategia de resolución de módulos.
+
+- tsc --moduleResolution node (ComminJS o UMD) más configurable
+- tsc --moduleResolution classic (Se infiere cuando el atributo modul: es MAD, Syste, y ES2015) poco configurable
+
+Classic: Import Relativo
+
+// Archivo: ./
+
+Classic: Import No-Relativo
+
+// Archivo con toda la ruta
+
+Node: Import No-Relativo
+
+// Archivo ./ y si no busca en package o index
+Se agrego la variable: traceResolution: true
+tsc --project photo-app (Se utiliza para realizar un debuggin y encontrar errores)
+
 
